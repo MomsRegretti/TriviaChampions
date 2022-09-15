@@ -1,32 +1,115 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Russo+One&display=swap');
+
+
+.App-container {  
+  background-image: url("https://wallpaperaccess.com/full/2825704.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%
+}
+.medal-container{
+  background-color: #556692;
+  width: fit-content;
+  padding: 10px;
+  margin: 0 auto;
   text-align: center;
+  font-family: 'Poiret One';
+  color: #5dedff;
+  font-size: x-large;
+}
+.title {
+background-image: linear-gradient(#3f51b5,#9c27b0);
+margin: auto;
+width: 1170px;
+height: 140px;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+font-family: 'Russo One';
+color: #5dedff;
+font-size: 50px;
+}
+.trivia-arena{
+  margin: 50px 700px;
+  font-family: 'Poiret One';
+  color: #5dedff;
+}
+.trivia-button{
+  background-image: linear-gradient(#3f51b5,#9c27b0);
+  border: none;
+  color: #5dedff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px auto;
+}
+.button{
+  background-image: linear-gradient(#3f51b5,#9c27b0);
+  border: none;
+  color: #5dedff;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 8px 5px 5px
+}
+.navbar{
+  height: 36px;
+  background-color: #556692;
+  width: 980px;
+  margin: 0 auto;
+}
+.navbar-text{
+  color:#5dedff;
+  text-decoration: none;
+  font-family: 'Poiret One';
+  padding-left: 150px;
+  padding-top: 10px;
+  font-size: x-large;
+}
+.form-submit{
+  background: #556692;
+  height: 49px;
+  width: 60%;
+  margin: 50px auto;
+  
+}
+.form{
+  font-family: 'Poiret One';
+  color: #5dedff;
+}
+.leaderboard {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #556692;
+  border: 2px solid #9c27b0;
+  font-family: 'Russo One';
+  color: #5dedff;
+  text-align: center;
+  font-size: 50px;
+}
+.leaderboard-container {
+  font-size: x-large;
+  border: 2px solid #9c27b0;
+  text-align: left;
+}
+.submission-text{
+  color: #5dedff;
+  padding: 10px 10px;
+}
+.img{
+  height: 50px;
+  width: 50px;
+  border: solid #5dedff;
+  border-radius: 50px;
+  display: inline-flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
