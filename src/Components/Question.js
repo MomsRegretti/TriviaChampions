@@ -14,8 +14,7 @@ function Question({question, onRightAnswer, onWrongAnswer}) {
     
     return (
         <div className='question'>
-
-                <p>{encodeQuestion(question.question)}</p>
+                <p style={{background:'#556692', padding:'10px'}}>{encodeQuestion(question.question)}</p>
                 {sortedOptions.map((option) => {
                 return <Questions onWrongAnswer={onWrongAnswer} onRightAnswer={onRightAnswer} question={question} key={option} value={option}/>
                 })}

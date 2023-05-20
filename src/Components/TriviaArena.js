@@ -14,7 +14,7 @@ function TriviaArena({onTryAgain, getQuestion, display, displayQuestion, gameLos
         {!display ? <button className='trivia-button' id='start-button' onClick={handleClick}>Let's Begin</button> : null}
         {gameRunning ? <Question onWrongAnswer={onWrongAnswer} onRightAnswer={onRightAnswer} question={question}/>: null}
         {gameLost? <div>
-          <h4>GAME OVER</h4>
+          <h4 style={{}}>GAME OVER</h4>
             <button className='trivia-button' onClick={handleLoserClick}>Try Again?</button>
           </div>
           : null}
